@@ -1,0 +1,40 @@
+## Игнорируемые файлы и папки для .NET / C# / Visual Studio
+
+# Артефакты сборки
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+
+# NuGet-пакеты (восстанавливаются автоматически)
+packages/
+
+# Пользовательские настройки Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstats
+*.sln.ide/
+
+# Rider (JetBrains)
+.idea/
+*.sln.iml
+
+# Файлы операционной системы
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Результаты тестов
+TestResults/
+
+# Сгенерированные графические файлы (если не нужны в репозитории)
+*.png
+*.jpg
+*.bmp
